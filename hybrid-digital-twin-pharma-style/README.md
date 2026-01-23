@@ -29,4 +29,4 @@ hybrid-digital-twin-pharma-style/
 
 ## License
 
-[Add license information]
+No License
