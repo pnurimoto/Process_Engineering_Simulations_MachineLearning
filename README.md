@@ -35,10 +35,10 @@ Each project is contained in its own directory under the repository root and inc
 - Validation logic and limitations
 - Notes on how the model could be extended or deployed
 
-**High-level structure:**
-/project-name-1
-/project-name-2
-/project-name-3
+**High-level structure:**  
+/project-name-1  
+/project-name-2  
+/project-name-3  
 …
 
 **Project Structure Guideline**
