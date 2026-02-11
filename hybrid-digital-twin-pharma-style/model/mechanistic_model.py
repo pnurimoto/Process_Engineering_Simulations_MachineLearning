@@ -112,3 +112,12 @@ def simulate_batch(
         "CC": CC,
         "T": T,
     }
+    
+# Wrap all functions in a class    
+class MechanisticModel:
+    def __init__(self, params: Params, Tj: Callable[[float], float]):
+        self.params = params
+        self.Tj = Tj
+
+    def simulate(self, t_span, y0, t_eval=None):
+        return simulate_batch(t_span, y0, self.params, self.Tj, t_eval=t_eval)
